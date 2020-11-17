@@ -1,0 +1,71 @@
+@import '../../utils/variables.scss';
+
+.item-list {
+  margin: 16px 32px;
+}
+.item-link {
+  color: unset;
+  text-decoration: unset;
+}
+.item-list:first-child {
+  padding-top: 16px;
+}
+.item-list:not(:last-child) {
+  border-bottom: 1pt solid #eee;
+}
+.item-image {
+  width: 50px;
+  border-radius: 4px;
+  @media (min-width: $xs) {
+    width: 100px;
+  }
+  @media (min-width: $sm) {
+    width: 140px;
+  }
+  @media (min-width: $md) {
+    width: 180px;
+  }
+}
+ul {
+  list-style-type: none;
+  margin-block-start: -16px;
+  margin-block-end: 0px;
+  padding-inline-start: 0px;
+  background-color: white;
+}
+.item-details {
+  background-color: white;
+  padding: 32px;
+}
+.content-image {
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+.content-image img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+}
+.button-comprar {
+  font-size: 16px;
+  padding: 0 24px;
+  height: 48px;
+  border-radius: 6px;
+  border-color: transparent;
+  background-color: $button-blue;
+  color: #fff;
+  width: 100%;
+  cursor: pointer;
+}
+.button-comprar:focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.1875em rgba(30, 109, 255, 0.3);
+  transition: box-shadow 0.25s ease-in;
+}
+.button-comprar:active {
+  border-color: transparent;
+  background-color: #1f4e96;
+  color: #fff;
+}

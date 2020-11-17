@@ -1,0 +1,49 @@
+@import '../../utils/variables.scss';
+
+.app-bar {
+  background-color: $primary_color;
+  display: block;
+}
+.app-bar-content {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+.header-logo {
+  height: 40px;
+  padding-right: 32px;
+}
+.search-container {
+  padding: 8px 40px;
+  position: relative;
+  display: flex;
+}
+.search-input {
+  height: $logo_height;
+  width: 100%;
+  border: none;
+  box-sizing: border-box;
+  border-radius: 4px 0 0 4px;
+  padding: 0 20px;
+  font-size: 18px;
+  outline: none;
+}
+
+.search-button {
+  height: $logo_height;
+  width: $logo_height;
+  border: none;
+  border-radius: 0 4px 4px 0;
+  background-color: #eee;
+  outline: none;
+  cursor: pointer;
+
+  &:hover {
+    background-color: darken($lighten_gray, 5%);
+  }
+
+  & > img {
+    width: 20px;
+    height: 20px;
+    margin: 4px;
+  }
+}

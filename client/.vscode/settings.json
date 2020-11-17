@@ -1,0 +1,12 @@
+{
+  "cSpell.words": [
+    "Arial",
+    "Helvetica"
+  ],
+  "files.eol": "\n",
+  "editor.tabSize": 2,
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.formatOnType": true,
+  "prettier.eslintIntegration": true
+}

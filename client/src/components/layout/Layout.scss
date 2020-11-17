@@ -1,0 +1,19 @@
+@import '../../utils/variables.scss';
+
+.main-layout {
+  display: flex;
+  flex: auto;
+  flex-direction: column;
+  height: 100%;
+}
+.content-layout {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: calc(100% - 80px);
+  max-width: 1120px;
+}
+.background {
+  min-height: 100vh;
+  background-color: $lighten_gray;
+}
