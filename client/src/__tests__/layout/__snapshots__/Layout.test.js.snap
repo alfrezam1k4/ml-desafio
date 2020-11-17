@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Layout /> renders correctly 1`] = `
+<div
+  className="background"
+>
+  <header
+    className="app-bar"
+  >
+    <div
+      className="app-bar-content"
+    >
+      <form
+        action="/items"
+        className="search-container"
+        method="get"
+      >
+        <a
+          href="/"
+          onClick={[Function]}
+        >
+          <img
+            alt="Logo Mercado Libre"
+            className="header-logo"
+            src="Logo_ML@2x.png.png"
+          />
+        </a>
+        <input
+          className="search-input"
+          name="search"
+          placeholder="Nunca dejes de buscar"
+        />
+        <button
+          className="search-button"
+        >
+          <img
+            alt="Buscar"
+            src="ic_Search@2x.png.png"
+          />
+        </button>
+      </form>
+    </div>
+  </header>
+  <main
+    className="main-layout"
+    id="main-content"
+    role="main"
+  >
+    <div
+      className="content-layout"
+    />
+  </main>
+</div>
+`;

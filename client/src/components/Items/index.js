@@ -1,5 +1,5 @@
 import ItemsResult from './ItemsResult';
-import Item from './item';
+import Item from './Item';
 import ItemDetails from './ItemDetails';
 
 export { ItemsResult, Item, ItemDetails };

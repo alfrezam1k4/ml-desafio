@@ -42,6 +42,13 @@ npm start
 ```
 Una ventana del navegador por defecto se deberia abrir con la siguiente direccion: [http://localhost:3000](http://localhost:3000).
 
+### `npm test`
+
+El cliente cuenta con algunos unitest a modo de demostracion de como pueden ser implementados. Se utilizo la libreria [Enzyme](https://enzymejs.github.io/enzyme/?utm_source=next.36kr.com) de Airbnb ya que la misma cuenta con mas funciones.
+Para correrlos debemos ubicarnos en la carpeta client y ejecutar el siguiente comando:
+```bash
+npm test
+```
 
 ## Contacto
 

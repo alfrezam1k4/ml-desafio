@@ -6,9 +6,9 @@ import { Breadcrumb, Col, Row } from '../commons';
 
 const ItemDetails = ({ api, match }) => {
   const [product, setProduct] = useState(null);
-
   const [categories, setCategories] = useState([]);
   const [condition, setCondition] = useState('');
+
   useEffect(() => {
     api
       .getItemDetails(match.params.id)
@@ -92,6 +92,9 @@ const ItemDetails = ({ api, match }) => {
   );
 };
 
-ItemDetails.propTypes = {};
+ItemDetails.propTypes = {
+  api: PropTypes.object,
+  match: PropTypes.object,
+};
 
 export default withApi(ItemDetails);

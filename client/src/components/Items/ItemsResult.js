@@ -3,8 +3,8 @@ import PropTypes from 'prop-types';
 import { withApi } from '../../utils';
 
 import queryString from 'query-string';
-import Item from './item';
-import './items.scss';
+import Item from './Item';
+import './Items.scss';
 import { Breadcrumb } from '../commons';
 
 const ItemsResult = ({ api }) => {

@@ -39,7 +39,7 @@ const Item = ({ product }) => {
             {free_shipping && (
               <img
                 src={icShipping}
-                alt="Envio"
+                alt="Envio Gratis"
                 style={{ width: '24px', verticalAlign: 'text-bottom' }}
               />
             )}

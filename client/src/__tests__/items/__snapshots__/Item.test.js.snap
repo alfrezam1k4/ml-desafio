@@ -1,0 +1,100 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Item /> renders correctly 1`] = `
+<a
+  className="item-link"
+  href="/items/undefined"
+  onClick={[Function]}
+>
+  <div
+    aria-hidden={false}
+    className="alf-row-flex alf-row-flex-center"
+    style={
+      Object {
+        "marginBottom": "16px",
+        "marginLeft": -4,
+        "marginRight": -4,
+      }
+    }
+  >
+    <div
+      className="alf-col alf-col-xs-24 alf-col-sm-8 alf-col-lg-5"
+      style={
+        Object {
+          "paddingLeft": 4,
+          "paddingRight": 4,
+        }
+      }
+    >
+      <img
+        alt=""
+        className="item-image"
+        src=""
+      />
+    </div>
+    <div
+      className="alf-col alf-col-xs-24 alf-col-sm-12 alf-col-lg-16"
+      style={
+        Object {
+          "marginTop": "16px",
+          "paddingLeft": 4,
+          "paddingRight": 4,
+        }
+      }
+    >
+      <p
+        style={
+          Object {
+            "display": "inline-block",
+            "fontSize": "24px",
+            "margin": "16px 16px 32px 0px",
+          }
+        }
+      >
+        ARSNaN
+      </p>
+      <img
+        alt="Envio Gratis"
+        src="ic_shipping.png"
+        style={
+          Object {
+            "verticalAlign": "text-bottom",
+            "width": "24px",
+          }
+        }
+      />
+      <p
+        style={
+          Object {
+            "fontSize": "18px",
+            "marginTop": 0,
+            "maxWidth": "400px",
+          }
+        }
+      >
+        
+      </p>
+    </div>
+    <div
+      className="alf-col alf-col-xs-24 alf-col-sm-4 alf-col-lg-3"
+      style={
+        Object {
+          "marginTop": "32px",
+          "paddingLeft": 4,
+          "paddingRight": 4,
+        }
+      }
+    >
+      <p
+        style={
+          Object {
+            "fontSize": "12px",
+          }
+        }
+      >
+        
+      </p>
+    </div>
+  </div>
+</a>
+`;
